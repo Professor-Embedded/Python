@@ -45,6 +45,10 @@ class Student:
     def __init__(self, roll, name):
         self.rollno = roll
         self.name = name
+
+    def __del__(self)
+    	print("Destructor Invoked!")
+
 s1 = Student(1, "ashish")
 s2 = Student(2, "Vishwaraj")
 print(s1.major)
