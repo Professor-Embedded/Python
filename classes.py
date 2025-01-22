@@ -39,3 +39,16 @@ p1.setSalary(100000)
 print(p1.getName())
 print(p1.getSalary())
 
+class Student:
+    major = 'CSE'
+    
+    def __init__(self, roll, name):
+        self.rollno = roll
+        self.name = name
+s1 = Student(1, "ashish")
+s2 = Student(2, "Vishwaraj")
+print(s1.major)
+print(s2.major)
+print(s1.name)
+print(s2.name)
+print(Student.major)
