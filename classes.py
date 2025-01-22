@@ -23,3 +23,19 @@ print(c1.ratings)
 
 '''
 
+class Programmer:
+    def setName(self, name):
+        self.name = name
+    def getName(self):
+        return self.name
+    def setSalary(self, salary):
+        self.salary = salary
+    def getSalary(self):
+        return self.salary
+    
+p1 = Programmer()
+p1.setName("Ashish")
+p1.setSalary(100000)
+print(p1.getName())
+print(p1.getSalary())
+
